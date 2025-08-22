@@ -6,7 +6,7 @@ import { Separator } from './components/ui/separator';
 import { Play, MapPin, Users, Award, CheckCircle, Star, ArrowRight, Zap, Target, Globe, Menu, Mountain, Snowflake, Flag, X } from 'lucide-react';
 import { motion } from 'motion/react';
 import heroImage from './assets/22c77bd596d7b07ff26c3faa8cb65418b4bb24e0.png';
-import truthChartingLogo from './assets/Truth Charting Logo.png';
+// import truthChartingLogo from './assets/Truth Charting Logo.png';
 import formedLogo from './assets/FORMED LOGO.png';
 
 export default function App() {
@@ -25,11 +25,9 @@ export default function App() {
         <div className="bg-black/20 backdrop-blur-xl border border-orange-500/20 rounded-full px-6 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img 
-                src={truthChartingLogo} 
-                alt="Truth Charting Logo" 
-                className="h-8 w-auto object-contain filter brightness-0 invert"
-              />
+              <div className="h-8 w-8 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
+                <span className="text-white text-sm font-bold">TC</span>
+              </div>
             </div>
             <div className="hidden md:flex items-center gap-6">
               <a href="#partnership" className="text-white/70 hover:text-white transition-colors text-sm">Partnership</a>
@@ -179,12 +177,9 @@ export default function App() {
                 className="absolute left-1/2 top-1/2 transform -translate-x-full -translate-y-1/2"
                 style={{ marginLeft: '-270px' }}
               >
-                <img 
-                  src={truthChartingLogo} 
-                  alt="Truth Charting Logo" 
-                  className="h-12 md:h-12 object-contain filter brightness-0 invert"
-                  style={{ transform: 'scale(1.7)'}}  
-                />
+                <div className="h-12 w-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white text-lg font-bold">TC</span>
+                </div>
               </motion.div>
 
               {/* FORMED Logo - positioned relative to X */}
