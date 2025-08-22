@@ -7,7 +7,7 @@ import { Play, MapPin, Users, Award, CheckCircle, Star, ArrowRight, Zap, Target,
 import { motion } from 'motion/react';
 import heroImage from './assets/22c77bd596d7b07ff26c3faa8cb65418b4bb24e0.png';
 // import truthChartingLogo from './assets/Truth Charting Logo.png';
-import formedLogo from './assets/FORMED LOGO.png';
+import formedLogo from './assets/FORMED_LOGO.png';
 
 export default function App() {
   return (
